@@ -8,20 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		3DA77D501E2340A6005F2EB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA77D4F1E2340A6005F2EB6 /* AppDelegate.swift */; };
-		3DA77D521E2340A6005F2EB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA77D511E2340A6005F2EB6 /* ViewController.swift */; };
 		3DA77D551E2340A6005F2EB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA77D531E2340A6005F2EB6 /* Main.storyboard */; };
 		3DA77D571E2340A6005F2EB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA77D561E2340A6005F2EB6 /* Assets.xcassets */; };
 		3DA77D5A1E2340A6005F2EB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA77D581E2340A6005F2EB6 /* LaunchScreen.storyboard */; };
+		ADC04073EA92D9200EF9C8C0 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC041C8F974F1B3F91EFDFC /* Hero.swift */; };
+		ADC040EBF6FFE79890B46854 /* HTMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC04810592657D1D078CAC0 /* HTMLParser.swift */; };
+		ADC0471A2C1CC05B59549E6C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC04D91A58AE9843B13462F /* Player.swift */; };
+		ADC04882B9AF7F20E95BBC85 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC0470B6A450BE5E762BEE7 /* PlayerViewController.swift */; };
+		ADC049714989A261F870CB6C /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC04D16BAF94F962324982B /* Resource.swift */; };
+		ADC04A756A6CEB91E1B83EC6 /* PlayerStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC040657D4C5AC6482367E2 /* PlayerStats.swift */; };
+		DEF5F0E1656E57792F936CBC /* Pods_Overwatcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ABD073CB4524FA1891F40F7 /* Pods_Overwatcher.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3ABD073CB4524FA1891F40F7 /* Pods_Overwatcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Overwatcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA77D4C1E2340A6005F2EB6 /* Overwatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Overwatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA77D4F1E2340A6005F2EB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3DA77D511E2340A6005F2EB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3DA77D541E2340A6005F2EB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DA77D561E2340A6005F2EB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DA77D591E2340A6005F2EB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DA77D5B1E2340A6005F2EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD044F51E23610C00D63776 /* Testing.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Testing.playground; sourceTree = "<group>"; };
+		55300F464D7DCCF9F6912074 /* Pods-Overwatcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Overwatcher.release.xcconfig"; path = "Pods/Target Support Files/Pods-Overwatcher/Pods-Overwatcher.release.xcconfig"; sourceTree = "<group>"; };
+		ADC040657D4C5AC6482367E2 /* PlayerStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerStats.swift; sourceTree = "<group>"; };
+		ADC041C8F974F1B3F91EFDFC /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		ADC0470B6A450BE5E762BEE7 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		ADC04810592657D1D078CAC0 /* HTMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLParser.swift; sourceTree = "<group>"; };
+		ADC04D16BAF94F962324982B /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		ADC04D91A58AE9843B13462F /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		EF9783B6018E4C2F0A4F7B51 /* Pods-Overwatcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Overwatcher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Overwatcher/Pods-Overwatcher.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF5F0E1656E57792F936CBC /* Pods_Overwatcher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +54,11 @@
 		3DA77D431E2340A6005F2EB6 = {
 			isa = PBXGroup;
 			children = (
+				3DD044F51E23610C00D63776 /* Testing.playground */,
 				3DA77D4E1E2340A6005F2EB6 /* Overwatcher */,
 				3DA77D4D1E2340A6005F2EB6 /* Products */,
+				F9CEE97A77F9CEFA3CEDF40A /* Pods */,
+				7B717D8341D661FEED1FC950 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +73,68 @@
 		3DA77D4E1E2340A6005F2EB6 /* Overwatcher */ = {
 			isa = PBXGroup;
 			children = (
+				3DD044F21E23450C00D63776 /* Web Service */,
 				3DA77D4F1E2340A6005F2EB6 /* AppDelegate.swift */,
-				3DA77D511E2340A6005F2EB6 /* ViewController.swift */,
 				3DA77D531E2340A6005F2EB6 /* Main.storyboard */,
 				3DA77D561E2340A6005F2EB6 /* Assets.xcassets */,
 				3DA77D581E2340A6005F2EB6 /* LaunchScreen.storyboard */,
 				3DA77D5B1E2340A6005F2EB6 /* Info.plist */,
+				ADC04432DB74B5069DD0D1FB /* Models */,
+				ADC04038705A2930E474A2CB /* Parser */,
+				ADC0414AC3A52A88B375A9C0 /* Controllers */,
 			);
 			path = Overwatcher;
+			sourceTree = "<group>";
+		};
+		3DD044F21E23450C00D63776 /* Web Service */ = {
+			isa = PBXGroup;
+			children = (
+				ADC04D16BAF94F962324982B /* Resource.swift */,
+			);
+			name = "Web Service";
+			sourceTree = "<group>";
+		};
+		7B717D8341D661FEED1FC950 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ABD073CB4524FA1891F40F7 /* Pods_Overwatcher.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADC04038705A2930E474A2CB /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				ADC04810592657D1D078CAC0 /* HTMLParser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		ADC0414AC3A52A88B375A9C0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ADC0470B6A450BE5E762BEE7 /* PlayerViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ADC04432DB74B5069DD0D1FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ADC04D91A58AE9843B13462F /* Player.swift */,
+				ADC041C8F974F1B3F91EFDFC /* Hero.swift */,
+				ADC040657D4C5AC6482367E2 /* PlayerStats.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F9CEE97A77F9CEFA3CEDF40A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF9783B6018E4C2F0A4F7B51 /* Pods-Overwatcher.debug.xcconfig */,
+				55300F464D7DCCF9F6912074 /* Pods-Overwatcher.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DA77D5E1E2340A6005F2EB6 /* Build configuration list for PBXNativeTarget "Overwatcher" */;
 			buildPhases = (
+				BB528313C4C0E39E9274C21F /* [CP] Check Pods Manifest.lock */,
 				3DA77D481E2340A6005F2EB6 /* Sources */,
 				3DA77D491E2340A6005F2EB6 /* Frameworks */,
 				3DA77D4A1E2340A6005F2EB6 /* Resources */,
+				EEA03B4C811080E08ECDE019 /* [CP] Embed Pods Frameworks */,
+				61CF2A75318F7DC0DE953ABC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +208,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		61CF2A75318F7DC0DE953ABC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Overwatcher/Pods-Overwatcher-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB528313C4C0E39E9274C21F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEA03B4C811080E08ECDE019 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Overwatcher/Pods-Overwatcher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3DA77D481E2340A6005F2EB6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DA77D521E2340A6005F2EB6 /* ViewController.swift in Sources */,
 				3DA77D501E2340A6005F2EB6 /* AppDelegate.swift in Sources */,
+				ADC049714989A261F870CB6C /* Resource.swift in Sources */,
+				ADC0471A2C1CC05B59549E6C /* Player.swift in Sources */,
+				ADC04073EA92D9200EF9C8C0 /* Hero.swift in Sources */,
+				ADC040EBF6FFE79890B46854 /* HTMLParser.swift in Sources */,
+				ADC04882B9AF7F20E95BBC85 /* PlayerViewController.swift in Sources */,
+				ADC04A756A6CEB91E1B83EC6 /* PlayerStats.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +386,7 @@
 		};
 		3DA77D5F1E2340A6005F2EB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF9783B6018E4C2F0A4F7B51 /* Pods-Overwatcher.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TA4Z9EU99Q;
@@ -270,6 +400,7 @@
 		};
 		3DA77D601E2340A6005F2EB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55300F464D7DCCF9F6912074 /* Pods-Overwatcher.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TA4Z9EU99Q;
@@ -300,6 +431,7 @@
 				3DA77D601E2340A6005F2EB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

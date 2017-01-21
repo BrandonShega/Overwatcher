@@ -1,0 +1,17 @@
+PODS:
+  - Kanna (2.0.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - Kanna (~> 2.0.0)
+  - SDWebImage (~> 3.8)
+
+SPEC CHECKSUMS:
+  Kanna: 9a6637f72f5c77fe9c045b1efb2a5bb074754af8
+  SDWebImage: '098e97e6176540799c27e804c96653ee0833d13c'
+
+PODFILE CHECKSUM: 8de9c8c5b020c5b48fc00162d942241b1200f21f
+
+COCOAPODS: 1.1.1
